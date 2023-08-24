@@ -1,0 +1,197 @@
+*{
+margin:0;padding:0;box-sizing: border-box;}
+header{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(#1abc9c,#1abc9c),url('a.jpg');
+    background-size: 100% 50%,100% 100% ;
+    
+    background-position: bottom,center;
+    background-repeat: no-repeat,no-repeat;
+
+}
+#icon{
+    float: right;
+    width: 40px;
+    margin-right: 25px;
+    margin-top: 20px;
+    -webkit-box-reflect:below 1px linear;
+    
+}
+
+.container{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.left{
+
+    flex-basis: 50%;
+
+    color: white;
+
+    max-width: 500px;
+
+    margin-top: 200px;
+
+}
+
+.left h1{
+
+    font-size: 30px;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    color:rgb(8, 248, 224);
+
+    text-align:right;
+
+}
+.left h2{
+
+    font-size: 30px;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    color:rgb(8, 248, 100);
+
+    text-align:right;
+
+}
+
+.right{
+
+    flex-basis: 50%;
+
+
+
+
+
+}
+
+.form{
+
+    background:rgba(255,255,255,0.2);
+
+    width:50%;
+
+    height: 300px;
+
+    margin: auto;
+
+    margin-top: 140px;
+    
+
+}
+
+form{
+
+    padding: 30px 20px;
+
+    color: white;
+
+
+
+}
+
+
+
+form input[type="text"]{
+
+    padding: 10px;
+
+    border:none;
+
+margin: 10px 20px;
+
+    width: 70%;
+
+}
+
+input[type="checkbox"]{
+
+    padding: 10px;
+
+    border:dotted;
+}
+button{
+
+    width: 50%;
+
+    padding: 10px;
+
+    border:none;
+
+    background: black;
+
+    color: white;
+
+    margin:10px 20px;
+
+}
+
+
+
+form a{
+
+    text-decoration: overline;
+
+    color:black;
+
+    margin:10px 20px;
+
+}
+
+.counter{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding-top: 100px;				
+
+}
+
+
+
+.counter h1{
+
+    color:black;
+
+}
+
+.counter p{
+
+    font-weight: bold;
+
+} 
+.copy{
+    padding: 100;
+    background:scroll blueviolet;
+    text-decoration-color: blue;
+    flex-wrap:inherit;
+    font-size: 50px;
+    display: flexbox;
+
+}
+.address{
+    padding: 100;
+    background-color: aqua;
+    text-decoration-color: blue;
+    flex-wrap:inherit;
+    font-size: 50px;
+}
+
